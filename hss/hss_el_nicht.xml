@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <marc:record>
+    <marc:leader>00000nam a2201225 c 4500</marc:leader>
+    <marc:controlfield tag="007">tu</marc:controlfield>
+    <!-- In 008 ist immer alles gleich, bis auf die Jahreszahl der Einreichung im Format JJJJ auf den Positionen 07-10 (nullindexiert) -->
+    <marc:controlfield tag="008">      |2017    au      rm    ||| |     u</marc:controlfield>
+    <marc:datafield tag="040" ind1=" " ind2=" ">
+      <marc:subfield code="a">UBG</marc:subfield>
+      <marc:subfield code="b">ger</marc:subfield>
+      <marc:subfield code="c">UBG-HS-online</marc:subfield>
+      <marc:subfield code="e">rda</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="044" ind1=" " ind2=" ">
+      <marc:subfield code="c">XA-AT</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+      <!-- Erste Verfasserin. Weitere Verfasserinnen kommen in Feld 700 (wiederholbar) -->
+      <marc:subfield code="a">Kerollos, Anthea</marc:subfield>
+      <marc:subfield code="4">aut</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="0" ind2="0">
+      <!-- Titel der Arbeit -->
+      <marc:subfield code="a">Produkt- und Markenpiraterie - Risiken und Abwehrstrategien</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="246" ind1="3" ind2="3">
+      <!-- Übersetzung des Titels. Wenn nicht vorhanden, ist auch kein Feld 500 mit Inhalt "Abweichender Titel [...]" zu bilden. -->
+      <marc:subfield code="a">Product and Brand Piracy - Risks and Defense Strategies</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+      <marc:subfield code="a">Graz</marc:subfield>
+      <!-- Jahr der Einreichung -->
+      <marc:subfield code="c">2017</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="336" ind1=" " ind2=" ">
+      <marc:subfield code="b">txt</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="337" ind1=" " ind2=" ">
+      <marc:subfield code="b">n</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="338" ind1=" " ind2=" ">
+      <marc:subfield code="b">nc</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="500" ind1=" " ind2=" ">
+      <marc:subfield code="a">Arbeit an der Bibliothek noch nicht eingelangt - Daten nicht geprüft</marc:subfield>
+    </marc:datafield>
+    <!-- Feld 500 nur, wenn 246 vorhanden! -->
+    <marc:datafield tag="500" ind1=" " ind2=" ">
+      <marc:subfield code="a">Abweichender Titel laut Übersetzung des Verfassers/der Verfasserin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="502" ind1=" " ind2=" ">
+      <!-- Je nach Sachverhalt Werte für Subfeld b:
+           Diplomarbeit
+           Masterarbeit
+           Dissertation
+      -->
+      <marc:subfield code="b">Masterarbeit</marc:subfield>
+      <marc:subfield code="c">Karl-Franzens-Universität Graz</marc:subfield>
+      <!-- Jahr der Einreichung -->
+      <marc:subfield code="d">2017</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <!-- Deutscher Abstract. Inhalt wird immer eingeleitet vom String "ger: " -->
+      <marc:subfield code="a">ger: Das Thema Produkt- und Markenpiraterie besteht bereits seit vielen Jahren und ist somit kein neues Themengebiet. Trotzdem haben immer noch viele Firmen stark mit diesem Problem zu kämpfen. Neben den betroffenen Unternehmen müssen auch zahlreiche Konsumenten der Piraterie entgegentreten, vor allem jene, welche nichtwissend gefälschte Produkte kaufen. Im Bereich der Technik und der Medizin, können Nachahmungen bei Konsumenten zu erheblichen Schäden führen. Einen Schaden tragen aber auch betroffene Unternehmen davon, wenn Verbraucher glauben, dass sie ein Original besitzen und plötzlich merken, dass die Qualität nicht stimmt oder Garantieleistungen abgeschlagen werden. Dieser Imageschaden kann in weiterer Folge zu Umsatzverlusten, der Firmen führen.Die Zielsetzung der Arbeit ist es, den Fokus auf den Bereich der Auswirkungen, Konsequenzen und den Sicherheitsmaßnahmen, welche von größter Relevanz sind, zu legen. Dabei soll die Idee einer App einen wesentlichen Beitrag leisten, welche als eine einfache Strategie gegen Produkt- und Markenpiraterie eingesetzt werden kann. Wichtig dabei ist, dass diese App aus einem Zusammenspiel von Hersteller und Verbraucher besteht.Im ersten Teil, dem theoretischen Teil, werden die Grundlagen der Thematik Produkt- und Markenpiraterie näher beschrieben. Dies beinhaltet Begriffsdefinitionen, Erscheinungsformen, die Auswirkungen auf Endkonsumenten sowie Unternehmen und zu guter Letzt die Maßnahmen gegen die Piraterie.Im zweiten empirischen Teil werden die getätigten Interviews analysiert und die praktischen Anwendungen erläutert. Gezeigt werden, wie zwei komplett gegensätzliche Unternehmen gegen die Piraterie ankämpfen und versuchen, die Wirtschaftsspionage zu bekämpfen. Daraus erschließt sich ein weiterer empirischer Bereich, welcher die App umfasst. Damit soll eine neue Maßnahme gesetzt werden, wobei Unternehmen und Konsumenten versuchen, in einer gemeinsamen Strategie der Problematik der</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="9">^^</marc:subfield>
+      <marc:subfield code="a"> Produkt- und Markenpiraterie entgegenzuwirken.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <!-- Englischer Abstract. Inhalt wird immer eingeleitet vom String "eng: " -->
+      <marc:subfield code="a">eng: Product and brand piracy are problems that have been around for many years now and thus, numerous companies already had or still have to deal with this issues on a daily basis. Besides the companies that are affect, also the consumers and especially those who are buying counterfeit products without knowing it must be more active in counteracting piracy since particularly in the field of technology and medicine, imitations can cause considerable damages to them. Further, the affected companies have to bear the damage, if the consumers believe that they are in possession of an original product and then realize that the quality is poor or that the warranty is denied. As a result, companies might suffer from a severe damage of the public image and also from a loss of sales.The main aim of this thesis is to focus on effects, consequences and safety measures with regard to product and brand piracy. Of particular interest are the measures taken against piracy, not only from a company’s perspective but also from the point of view of the consumer. In this context, the idea of an app will be of major importance since this popular medium could be used as strategy to fight against product and brand piracy.In the theoretical section, the principles of product and brand piracy are discussed in more detail. This includes definitions, different types of piracy, the effects on the consumers as well as on the companies and finally, the measures against the piracy. In the empirical part, the interviews that were conducted beforehand with two companies are analyzed in order to find out about the measures that are taken in practice. It should thereby be shown how two completely different companies fight against piracy and how they counteract industrial espionage. The findings are then used to come up with ideas for the development of an app that could help consumers and companies to develop a strategy for counteracting product and brand</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1=" " ind2=" ">
+      <marc:subfield code="9">^^</marc:subfield>
+      <marc:subfield code="a"> piracy.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+      <marc:subfield code="a">Hochschulschrift</marc:subfield>
+      <marc:subfield code="0">(DE-588)4113937-9</marc:subfield>
+      <marc:subfield code="2">gnd-content</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="751" ind1=" " ind2=" ">
+      <marc:subfield code="a">Graz</marc:subfield>
+      <marc:subfield code="0">(DE-588)4021912-4</marc:subfield>
+      <marc:subfield code="4">uvp</marc:subfield>
+      <marc:subfield code="2">gnd</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="970" ind1="2" ind2=" ">
+      <!-- Je nach Sachverhalt
+           HS-Dipl
+           HS-MASTER
+           HS-DISS
+      -->
+      <marc:subfield code="d">HS-MASTER</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="971" ind1="1" ind2=" ">
+      <!-- Erster Beurteiler der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld mit den jeweiligen Namen wiederholt. -->
+      <marc:subfield code="a">Krickl, Otto</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="971" ind1="3" ind2=" ">
+      <!-- Datum der Einreichung im Format JJJJ-MM -->
+      <marc:subfield code="a">2017-07</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="971" ind1="5" ind2=" ">
+      <marc:subfield code="a">Universität Graz</marc:subfield>
+      <!-- Name der Fakultät (ORG_NAME) -->
+      <marc:subfield code="b">Sozial- und Wirtschaftswissenschaftliche Fakultät</marc:subfield>
+      <!-- Durchführendes Institut -->
+      <marc:subfield code="c">Institut für Organisation und Institutionenökonomik</marc:subfield>
+      <marc:subfield code="0">vls-obvugr-196515</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="971" ind1="7" ind2=" ">
+      <!-- Fixtext wenn elektronische Veröffentlichung = N -->
+      <marc:subfield code="i">AutorIn stimmte der Freigabe des elektronischen Dokuments nicht zu</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="974" ind1="0" ind2="s">
+      <marc:subfield code="F">030</marc:subfield>
+      <marc:subfield code="A">a|1urr|||||17</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="974" ind1="0" ind2="s">
+      <marc:subfield code="F">050</marc:subfield>
+      <marc:subfield code="A">a|a|||||||||||</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="974" ind1="0" ind2="s">
+      <marc:subfield code="F">051</marc:subfield>
+      <marc:subfield code="A">mu||||||</marc:subfield>
+    </marc:datafield>
+  </marc:record>
+</marc:collection>
