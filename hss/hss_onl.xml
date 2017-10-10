@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    Template:
+    ### ONLINE ZUGÄNGLICHE HOCHSCHULSCHRIFT ####
+-->
+
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
   <marc:record>
     <marc:leader>00000nam a2200421 c 4500</marc:leader>
@@ -16,7 +22,7 @@
       <marc:subfield code="c">XA-AT</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="100" ind1="1" ind2=" ">
-      <!-- Erste Verfasserin. Weitere Verfasserinnen kommen in Feld 700 (wiederholbar) -->
+      <!-- Erste Verfasserin. Weitere Verfasserinnen kommen in Feld 700 (wiederholbar, s. u.) -->
       <marc:subfield code="a">Raus, Alexandra</marc:subfield>
       <marc:subfield code="4">aut</marc:subfield>
     </marc:datafield>
@@ -45,7 +51,7 @@
     <marc:datafield tag="500" ind1=" " ind2=" ">
       <marc:subfield code="a">Arbeit an der Bibliothek noch nicht eingelangt - Daten nicht geprüft</marc:subfield>
     </marc:datafield>
-    <!-- Feld 500 nur, wenn 246 vorhanden! -->
+    <!-- Dieses feld 500 nur, wenn 246 vorhanden! -->
     <marc:datafield tag="500" ind1=" " ind2=" ">
       <marc:subfield code="a">Abweichender Titel laut Übersetzung des Verfassers/der Verfasserin</marc:subfield>
     </marc:datafield>
@@ -61,23 +67,22 @@
       <marc:subfield code="d">2017</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="520" ind1=" " ind2=" ">
-      <!-- Deutscher Abstract. Inhalt wird immer eingeleitet vom String "ger: " -->
+      <!-- Deutscher Abstract. Inhalt wird immer eingeleitet vom String "ger: ", kein Längenlimit mehr -->
         <marc:subfield code="a">ger: Da immer mehr Heilkräuter der TCM auch in Europa verwendet werden, spielt die Qualität der Pflanzen eine sehr wichtige Rolle. Das „Schwitzenlassen“, im Chinesischen fahan genannt, ist in der Traditionellen Chinesischen Medizin ein Verfahren, um Wurzeln zu Trocknen. Dabei wird die Feuchtigkeit im Inneren der Wurzel durch Aufhäufen und Abdecken nach außen gebracht und dadurch entzogen. Es werden dabei allerdings nicht nur das Aussehen der Wurzel, sondern auch die Inhaltsstoffe verändert. Aus diesem Grund wurde in Zuge dieser Diplomarbeit der Einfluss der Nacherntebehandlung auf die Gehalte der Inhaltsstoffe von Salviae miltiorrhizae Radix und Scrophulariae Radix bestimmt. Die Wurzeln wurden nach den Monographien des Europäischen Arzneibuchs (Salviae miltiorrhizae Radix) und des Monographie-Entwurfs des Deutschen Arzneibuchs bzw. der Monographie des Chinesischen Arzneibuchs (Scrophulariae Radix) bearbeitet und der Gehalt mittels HPLC bestimmt. Der Gehalt von Salvianolsäure B (SAB), einem der Hauptinhaltsstoffe von Salviae miltiorrhizae Radix variierte dabei sehr, während Tanshinon IIA (TII A) nur geringfügige Schwankungen zeigte. Dies ist vor allem auf die Vorbehandlung der Wurzelproben zurückzuführen. Der höchste Gehalt mit &gt;15% an SAB wurde in der ganzen Wurzel gefunden, TIIA zeigte dabei den geringsten Gehalt (0,09%). Bei Scrophulariae Radix konnte kein gravierender Unterschied zwischen den beiden Monographien festgestellt werden. Erwähnenswert ist, dass nach der Bearbeitung laut Chinesischem Arzneibuch mehr Harpagosid erhalten wird. Der Grund könnte die längere Bearbeitung der Probe sein. Es wurde festgestellt, dass eine zu lange Vortrocknung (48h) sich in einer Verringerung der Summe der beiden Inhaltsstoffe Harpagid und Harpagosid auswirkt, die sich durch anschließende Behandlung in der Klimakammer wieder verbessern, vor allem bei der Fraktion „groß“. Ein Grund könnte die niedrigere Temperatur und die höhere Luftfeuchtigkeit sein.</marc:subfield>
     </marc:datafield>
-    <!--
     <marc:datafield tag="520" ind1=" " ind2=" ">
-      <marc:subfield code="9">^^</marc:subfield>
-      <marc:subfield code="a"> Luftfeuchtigkeit sein.</marc:subfield>
-    </marc:datafield>
-    -->
-    <marc:datafield tag="520" ind1=" " ind2=" ">
-      <!-- Englischer Abstract. Inhalt wird immer eingeleitet vom String "eng: " -->
+      <!-- Englischer Abstract. Inhalt wird immer eingeleitet vom String "eng: ", kein Längenlimit mehr -->
       <marc:subfield code="a">eng: Due to the rise in the use of Chinese medicinal herbs in Europe, quality control is very important. Hence, this thesis focused on the influence of post-harvest processing on the quantity of the ingredients of Salviae miltiorrhizae Radix and Scrophulariae Radix. „Sweating“, called fahan in Chinese, is a treatment in traditional Chinese medicine to dry roots. It is used to get the humidity from the inner side out by the use of pile up and cover techniques/procedures. Not only the appearance of the roots changes, the ingredients change as well. The roots were analysed according European Pharmacopoeia monograph (Salviae miltiorrhizae Radix) and the monograph draft of the German Pharmacopoeia the Chinese Pharmacopoeia monograph (Scrophulariae Radix) respectively, and the ingredients were determined by HPLC. The amount of Salvianolic acid B, one of the most common ingredients in Salviae miltiorrhizae Radix, showed variation, whereas Tanshinone IIA showed little variances. Ca. 15% was the highest amount SAB, which was found in the whole roots, Tanshinone IIA showed the lowest amount (0,09 %). This is due to post-harvest processing.The results of the sample preparation according to the monograph of the Chinese Pharmacopoeia and draft monograph of the German Pharmacopoeia showed no big difference. It has to be mentioned that the preparation by the Chinese Pharmacopeia yielded more harpagoside. One reason could be that the sample preparation takes longer.Both results showed that drying the roots for too long (48h) causes a reduction of the amount of harpagoside and harpagide. But treatment in the climatic chamber afterwards improves that effect, particularly in the fraction “big”. Maybe the lower temperature and the high humidity are the better setting for the substances.</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="655" ind1=" " ind2="7">
       <marc:subfield code="a">Hochschulschrift</marc:subfield>
       <marc:subfield code="0">(DE-588)4113937-9</marc:subfield>
       <marc:subfield code="2">gnd-content</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+      <!-- Zweite Verfasserin. Für die dritte ud weitere VerfasserInnen, dieses Feld wiederholen. -->
+      <marc:subfield code="a">Musterfrau, Martina</marc:subfield>
+      <marc:subfield code="4">aut</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="751" ind1=" " ind2=" ">
       <marc:subfield code="a">Graz</marc:subfield>
@@ -87,7 +92,7 @@
     </marc:datafield>
     <marc:datafield tag="856" ind1="4" ind2=" ">
       <!-- Elektronische Adresse. Nur wenn elektron. Veröffentlichung = J.
-           Wenn Sperre = J oder elektron. Veröffentlichung = N: Feld 852 wird nicht generiert!
+           Wenn Sperre = J oder elektron. Veröffentlichung = N: Feld 856 wird nicht generiert!
       -->
       <marc:subfield code="u">https://it013179.pers.ad.uni-graz.at:7090/Nawi/5e3b3a151bad4ad178ce1055595e19e9.pdf</marc:subfield>
       <marc:subfield code="x">UBG</marc:subfield>
@@ -95,15 +100,19 @@
     </marc:datafield>
     <marc:datafield tag="970" ind1="2" ind2=" ">
       <!-- Je nach Sachverhalt
-           HS-Dipl
+           HS-DIPL
            HS-MASTER
            HS-DISS
       -->
       <marc:subfield code="d">HS-DIPL</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="971" ind1="1" ind2=" ">
-      <!-- Erster Beurteiler der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld mit den jeweiligen Namen wiederholt. -->
+      <!-- Erster Beurteiler der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld (tag="971" ind1="1" ind2=" ") mit den jeweiligen Namen wiederholt. -->
       <marc:subfield code="a">Bauer, Rudolf</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="971" ind1="1" ind2=" ">
+      <!-- Zeite Beurteilerin der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld (tag="971" ind1="1" ind2=" ") mit den jeweiligen Namen wiederholt. -->
+      <marc:subfield code="a">Müller, Hertha</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="971" ind1="3" ind2=" ">
       <!-- Datum der Einreichung im Format JJJJ-MM -->

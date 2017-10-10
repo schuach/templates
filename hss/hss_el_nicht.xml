@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   Template:
+   ### ELEKTRONISCH NICHT ZUGÄNGLICHE HOCHSCHULSCHRIFT ###
+
+   Darf folgende Felder NICHT enthalten:
+   <marc:datafield tag="856" ind1="4" ind2=" "/> mit der elektronischen Adresse der Hochschulschrift
+
+   MUSS folgendes Feld enthalten (Fixtext, immer gleich) :
+   <marc:datafield tag="971" ind1="7" ind2=" ">
+     <marc:subfield code="i">AutorIn stimmte der Freigabe des elektronischen Dokuments nicht zu</marc:subfield>
+   </marc:datafield>
+-->
+
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
   <marc:record>
     <marc:leader>00000nam a2201225 c 4500</marc:leader>
@@ -80,6 +94,11 @@
       <marc:subfield code="0">(DE-588)4113937-9</marc:subfield>
       <marc:subfield code="2">gnd-content</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+      <!-- Zweite Verfasserin. Für die dritte und weitere VerfasserInnen, dieses Feld wiederholen. -->
+      <marc:subfield code="a">Musterfrau, Martina</marc:subfield>
+      <marc:subfield code="4">aut</marc:subfield>
+    </marc:datafield>
     <marc:datafield tag="751" ind1=" " ind2=" ">
       <marc:subfield code="a">Graz</marc:subfield>
       <marc:subfield code="0">(DE-588)4021912-4</marc:subfield>
@@ -95,9 +114,12 @@
       <marc:subfield code="d">HS-MASTER</marc:subfield>
     </marc:datafield>
     <marc:datafield tag="971" ind1="1" ind2=" ">
-      <!-- Erster Beurteiler der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld mit den jeweiligen Namen wiederholt. -->
+      <!-- Erster Beurteiler der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld (tag="971" ind1="1" ind2=" ") mit den jeweiligen Namen wiederholt. -->
       <marc:subfield code="a">Krickl, Otto</marc:subfield>
     </marc:datafield>
+    <marc:datafield tag="971" ind1="1" ind2=" ">
+      <!-- Zeite Beurteilerin der Arbeit. Für weitere Beurteilende (maximal 10) wird das Feld (tag="971" ind1="1" ind2=" ") mit den jeweiligen Namen wiederholt. -->
+      <marc:subfield code="a">Müller, Hertha</marc:subfield>
     <marc:datafield tag="971" ind1="3" ind2=" ">
       <!-- Datum der Einreichung im Format JJJJ-MM -->
       <marc:subfield code="a">2017-07</marc:subfield>
