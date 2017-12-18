@@ -12,7 +12,7 @@ EOF
 FOOT='</marc:collection>'
 
 # read contents of all files to variable BODY
-BODY=`sed -e '1,2d' \
+BODY=`sed -s -e '1,5d' \
            -e '$d' \
            -e '/^.*tag="008"/s/[a-z]m/ m/' \
            *.xml`
