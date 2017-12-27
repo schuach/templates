@@ -1,0 +1,58 @@
+#+TITLE: Hochschulschriften Workflow
+#+AUTHOR: Stefan Schuh
+#+EMAIL: stefan.schuh@uni-graz.at
+#+BABEL: :session *python* :cache yes :exports both :tangle yes 
+
+* Allgemeines
+  Dieses Script hat die Aufgabe, die Datensäte, die von der UniIT bereitgestellt
+  werden, so aufzubereiten, dass sie komfortabel in Alma eingespielt werden
+  können.
+
+  Dinge, die es können soll:
+  - Unabhängig davon sein, ob die UniIT ein File pro Arbeit oder ein File pro
+    Tag liefert.
+  - Separate Output-Dateien erstellen für
+    + elektronisch zugängliche Arbeiten
+    + elektronisch nicht zugängliche Arbeiten
+    + gesperrte Arbeiten
+  - Duplikate entfernen, die entstehen, wenn mehrere VerfasserInnen gemeinsam
+    eine Arbeit schreiben.
+  - Bei gesperrten Arbeiten Abstracts und Links entfernen und bei Bedarf
+    Codierungen anpassen.
+
+*** Voraussetzungen
+    Dieses Skript wird mit Python 3.6 entwickelt. Es wird angestrebt nur die
+    Standardbibliothek zu verwenden, daher sollte kein Virtual Environment
+    notwendig sein.
+
+* Vorbereitendes
+
+*** Imports
+    Nachdem die Ausgangsdateien als XML geliefert werden brauchen parsen wir
+    dieses mit =xml.etree.ElementTree=. Außerdem brauchen wir das Modul
+    =copy=, da wir Deepcopys erstellen wollen:
+
+    #+name: imports
+    #+BEGIN_SRC python
+      import xml.etree.ElementTree as ET
+      import copy
+    #+END_SRC
+
+*** Namespaces
+    Damit beim schreiben der Ausgangsdateien der marc-Namespace richtig
+    aufgelöst wird, müssen wir ihn gleich registrieren. Außerdem machen wir ein
+    Dictionary mit dem Namespace, damit wir beim Parsen nicht immer den ganzen
+    Namespace auflösen müssen:
+    
+    #+NAME: namespaces
+    #+BEGIN_SRC python
+      ET.register_namespace('marc', 'http://www.loc.gov/MARC21/slim')
+      ns = {'marc': 'http://www.loc.gov/MARC21/slim'}
+    #+END_SRC
+
+* Alles Zusammensetzen und ein Python-Script machen
+  #+BEGIN_SRC python :tangle hss.py :noweb yes
+  #!/bin/python3.6
+  <<imports>>  
+  <<namespaces>>
+  #+END_SRC
